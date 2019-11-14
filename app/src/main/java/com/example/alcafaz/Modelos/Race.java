@@ -1,13 +1,13 @@
 package com.example.alcafaz.Modelos;
 
-public class Raca {
+public class Race {
     private String name;
     private int maxAge;
     private double maxSize, speed;
     private int[] attributes = new int[6];
     private String[] proficiencies, Languages;
 
-    public Raca(String name) {
+    public Race(String name) {
         this.name = name;
     }
 
